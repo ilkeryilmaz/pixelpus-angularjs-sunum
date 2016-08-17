@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="routeApp">
+<head>
+  <meta charset="utf-8">
+  <title>Angular Routing</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+</head>
+<body ng-controller="mainController">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#/">Angular Routing</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <div ng-view></div>
+  </div>
+
+  <!-- JS -->
+  <script src="assets/js/angular.min.js"></script>
+  <script src="assets/js/angular-route.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
