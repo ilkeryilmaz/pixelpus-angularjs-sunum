@@ -1,2 +1,2 @@
-# AngularJS Sunum Dosyaları
-Pixelplus AngularJS sunum dosyaları
+# AngularJS Sunumu
+Github API ve AngularJS Route örnekleri yapılmıştır. 
